@@ -1,11 +1,14 @@
-K = int(input())
+import sys
 
-nums = []
+K = int(sys.stdin.readline())
+
+lifo = []
+
 for i in range(K):
-    n = int(input())
-    if n == 0:
-        nums.pop()
+    in_num = int(sys.stdin.readline())
+    if in_num != 0:
+        lifo.append(in_num)
     else:
-        nums.append(n)
+        lifo.pop()
 
-print(sum(nums))
+print(sum(lifo))
