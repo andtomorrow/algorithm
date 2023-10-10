@@ -1,11 +1,13 @@
 from collections import Counter
+from sys import stdin
 
-word = input()
-ltr_cnt = Counter(word.upper())
+input_str = stdin.readline().strip()
+input_str_lower = input_str.lower()
+cnt_char = Counter(input_str_lower).most_common(2)
 
-if len(ltr_cnt.most_common()) == 1:
-    print(ltr_cnt.most_common()[0][0])
-elif ltr_cnt.most_common(2)[0][1] == ltr_cnt.most_common(2)[1][1]:
-    print('?')
+if len(cnt_char) == 1:
+    print(cnt_char[0][0].upper())
+elif cnt_char[0][1] != cnt_char[1][1]:
+    print(cnt_char[0][0].upper())
 else:
-    print(ltr_cnt.most_common()[0][0])
+    print("?")
