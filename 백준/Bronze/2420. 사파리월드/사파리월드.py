@@ -1,2 +1,5 @@
-N, M = map(int, input().split())
-print(abs(N-M))
+from sys import stdin
+
+A, B = map(int, stdin.readline().split())
+
+print(abs(A - B))
