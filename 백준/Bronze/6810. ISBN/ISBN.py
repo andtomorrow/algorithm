@@ -10,7 +10,7 @@ for _ in range(3):
 
 one_three_sum = 0
 
-for i in range(len(isbn)):
+for i, digit in enumerate(isbn):
     if i % 2 == 0:
         one_three_sum += int(isbn[i]) * 1
     else:
