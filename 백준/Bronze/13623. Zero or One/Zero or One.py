@@ -12,6 +12,6 @@ cnt_one = all_lst.count(1)
 if cnt_zero == 1:
     print(LIST_INDEX_DICT[all_lst.index(0)])
 elif cnt_one == 1:
-    print(LIST_INDEX_DICT[all_lst.index(1)][0])
+    print(LIST_INDEX_DICT[all_lst.index(1)])
 else:
     print("*")
