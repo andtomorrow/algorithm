@@ -1,7 +1,5 @@
 from sys import stdin
 
-board = [[False] * 8 for _ in range(8)]
-
 total_on_white = 0
 
 for i in range(8):  # 짝수행부터, 행 하나씩
