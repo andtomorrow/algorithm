@@ -1,15 +1,19 @@
 T = int(input())
 
-for t in range(1, T+1):
-    ox_ansr = input()
+for _ in range(T):
+    inpt_str = input()
 
-    streak = 0
-    score = 0
-    for ansr in ox_ansr:
-        if ansr == 'X':
-            streak = 0
-        elif ansr == 'O':
-            streak += 1
-            score += streak
+    idx = 0
+    SCORE_ZERO = 0
+    current_score = SCORE_ZERO
 
-    print(score)
+    total_score = 0
+
+    for char in inpt_str:
+        if char == "O":
+            current_score += 1
+            total_score += current_score
+        elif char == "X":
+            current_score = SCORE_ZERO
+
+    print(total_score)
