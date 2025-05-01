@@ -10,7 +10,7 @@ subin, younger = map(int, input().split())
 MAX = 100001
 visited = [-1] * MAX
 
-MOVES = ["-1", "+1", "*2"]
+# MOVES = ["-1", "+1", "*2"]
 
 
 def bfs(start: int) -> any:
@@ -22,8 +22,8 @@ def bfs(start: int) -> any:
     while queue:
         position = queue.popleft()
 
-        for i in range(3):
-            new_position = eval(f"{position} {MOVES[i]}")
+        for operation_result in [position-1, position+1, position*2]:
+            new_position = operation_result
 
             if 0 <= new_position < MAX:
                 if visited[new_position] == -1:
