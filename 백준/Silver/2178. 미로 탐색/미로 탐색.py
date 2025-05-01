@@ -2,18 +2,20 @@ from collections import deque
 
 height, width = map(int, input().split())
 
-surface = [[0 for _ in range(width)] for _ in range(height)]
+maze = [[0 for _ in range(width)] for _ in range(height)]
 
 for i in range(height):
-    new_inpt = input()
+    this_inpt = input()
     for j in range(width):
-        surface[i][j] = int(new_inpt[j])
+        maze[i][j] = int(this_inpt[j])
 
 
-FOUR_DIRECTIONS = [(0, -1), (0, 1), (1, 0), (-1, 0)]
+FOUR_DIRECTIONS = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
 
-def bfs(y, x):
+def bfs(
+        y: int, x: int
+) -> any:
     queue = deque()
     queue.append((y, x))
 
@@ -25,11 +27,11 @@ def bfs(y, x):
             new_x = x + FOUR_DIRECTIONS[i][1]
 
             if 0 <= new_y < height and 0 <= new_x < width:
-                if surface[new_y][new_x] == 1:
-                    surface[new_y][new_x] = surface[y][x] + 1
+                if maze[new_y][new_x] == 1:
+                    maze[new_y][new_x] = maze[y][x] + 1
                     queue.append((new_y, new_x))
 
 
 bfs(0, 0)
 
-print(surface[height - 1][width - 1])
+print(maze[height-1][width-1])
