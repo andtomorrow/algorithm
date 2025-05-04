@@ -1,15 +1,26 @@
-import collections
+from collections import Counter
+
+"""
+세 자연수 A, B, C
+구: A*B*C 계산결과에서 0, 9가 각각 몇 번씩 쓰였는지
+"""
 
 A = int(input())
 B = int(input())
 C = int(input())
 
-mlt_string = str(A * B * C)
-nums_cnt = collections.Counter(mlt_string)
+
+dict_zero_to_nine = dict.fromkeys('0123456789')
+
+target_num = A * B * C
+
+analysis = Counter(str(target_num))
+
+dict_zero_to_nine.update(analysis)
 
 
-for n in range(10):
-    if str(n) in nums_cnt:
-        print(nums_cnt[str(n)])
-    else:
+for k, v in dict_zero_to_nine.items():
+    if v is None:
         print(0)
+    else:
+        print(v)
