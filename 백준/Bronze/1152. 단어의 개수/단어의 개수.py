@@ -1,3 +1,5 @@
-words = list(map(str, input().split()))
+inpt_str = input()
 
-print(len(words))
+num_words = len(inpt_str.split())
+
+print(num_words)
