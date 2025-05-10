@@ -1,7 +1,13 @@
+from sys import stdin
+
 T = int(input())
-for t in range(1, T+1):
-    R, S = input().split()
-    R = int(R)
+
+for _ in range(T):
+    R_str, S = stdin.readline().split()
+    R = int(R_str)
+    P = ""
+
     for char in S:
-        print(char*R, sep='', end='')
-    print()
+        P += char * R
+
+    print(P)
