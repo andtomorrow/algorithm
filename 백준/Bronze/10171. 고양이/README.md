@@ -1,14 +1,18 @@
 # [Bronze V] 고양이 - 10171 
 
-[문제 링크](https://www.acmicpc.net/problem/10171) 
+[문제 링크](https://acmicpc.net/problem/10171) 
 
 ### 성능 요약
 
-메모리: 30616 KB, 시간: 40 ms
+메모리: 1004 KB, 시간: 0 ms
 
 ### 분류
 
-구현(implementation)
+구현
+
+### 제출 일자
+
+2026년 11월 22일 20:31:14
 
 ### 문제 설명
 
