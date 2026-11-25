@@ -1,14 +1,18 @@
 # [Bronze III] 오븐 시계 - 2525 
 
-[문제 링크](https://www.acmicpc.net/problem/2525) 
+[문제 링크](https://acmicpc.net/problem/2525) 
 
 ### 성능 요약
 
-메모리: 38128 KB, 시간: 68 ms
+메모리: 1128 KB, 시간: 1 ms
 
 ### 분류
 
-사칙연산(arithmetic), 수학(math)
+사칙연산, 수학
+
+### 제출 일자
+
+2026년 11월 25일 17:58:49
 
 ### 문제 설명
 
