@@ -1,14 +1,18 @@
 # [Bronze V] 아스키 코드 - 11654 
 
-[문제 링크](https://www.acmicpc.net/problem/11654) 
+[문제 링크](https://acmicpc.net/problem/11654) 
 
 ### 성능 요약
 
-메모리: 30616 KB, 시간: 40 ms
+메모리: 1128 KB, 시간: 1 ms
 
 ### 분류
 
-구현(implementation)
+구현
+
+### 제출 일자
+
+2026년 11월 27일 17:30:13
 
 ### 문제 설명
 
