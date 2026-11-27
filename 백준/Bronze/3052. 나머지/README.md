@@ -1,14 +1,18 @@
 # [Bronze II] 나머지 - 3052 
 
-[문제 링크](https://www.acmicpc.net/problem/3052) 
+[문제 링크](https://acmicpc.net/problem/3052) 
 
 ### 성능 요약
 
-메모리: 30616 KB, 시간: 36 ms
+메모리: 1128 KB, 시간: 1 ms
 
 ### 분류
 
-사칙연산(arithmetic), 수학(math)
+사칙연산, 수학, 집합과 맵
+
+### 제출 일자
+
+2026년 11월 27일 17:05:23
 
 ### 문제 설명
 
