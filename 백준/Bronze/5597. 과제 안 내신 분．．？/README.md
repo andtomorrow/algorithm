@@ -1,14 +1,18 @@
-# [Bronze V] 과제 안 내신 분..? - 5597 
+# [Bronze III] 과제 안 내신 분..? - 5597 
 
-[문제 링크](https://www.acmicpc.net/problem/5597) 
+[문제 링크](https://acmicpc.net/problem/5597) 
 
 ### 성능 요약
 
-메모리: 34068 KB, 시간: 64 ms
+메모리: 1128 KB, 시간: 1 ms
 
 ### 분류
 
-구현(implementation)
+구현
+
+### 제출 일자
+
+2026년 11월 27일 11:52:37
 
 ### 문제 설명
 
