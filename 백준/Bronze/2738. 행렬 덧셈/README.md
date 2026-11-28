@@ -1,14 +1,18 @@
-# [Bronze V] 행렬 덧셈 - 2738 
+# [Bronze III] 행렬 덧셈 - 2738 
 
-[문제 링크](https://www.acmicpc.net/problem/2738) 
+[문제 링크](https://acmicpc.net/problem/2738) 
 
 ### 성능 요약
 
-메모리: 30720 KB, 시간: 56 ms
+메모리: 1128 KB, 시간: 3 ms
 
 ### 분류
 
-구현(implementation), 수학(math)
+사칙연산, 구현, 수학
+
+### 제출 일자
+
+2026년 11월 28일 19:20:32
 
 ### 문제 설명
 
